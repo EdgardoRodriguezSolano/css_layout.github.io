@@ -161,7 +161,7 @@ h2 ~ p {
 }
 
 .hero-home {
-  background-image: url(/images/crossfit.jpg);
+  background-image: url({{ site.baseurl }}/images/crossfit.jpg);
   background-position: center top;
 }
 

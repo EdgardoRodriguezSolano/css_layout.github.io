@@ -67,11 +67,11 @@ h2 ~ p {
 /* HEADER STYLES */
 
 .header {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 .header-logo {
-  background-color: #000;
+  background-color: #fff;
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -100,7 +100,7 @@ h2 ~ p {
   padding-left: 1em;
 }
 .header-nav a {
-  color: #fff;
+  color: #000;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;

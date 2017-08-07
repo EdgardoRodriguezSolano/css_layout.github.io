@@ -48,6 +48,12 @@ a img {
 /* END RESET*/
 
 /* GLOBAL STYLES */
+
+html {
+  box-shadow: 0 0 0 30px #fff inset;
+  padding: 0 30px;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -69,6 +75,9 @@ h2 ~ p {
 .header {
   background-color: #fff;
   color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 }
 .header-logo {
   background-color: #fff;
@@ -121,8 +130,22 @@ h2 ~ p {
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
+
+
+
 }
 
+
+.nav-links a {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-links a:hover,
+.nav-links a:active {
+  color: #ed6e2f;
+}
 
 
 /* SOCIAL STYLES */
@@ -149,6 +172,7 @@ h2 ~ p {
   list-style: none;
   padding: 0;
   text-align: center;
+  
 }
 .social-list > li {
   display: inline-block;
@@ -193,3 +217,30 @@ h2 ~ p {
 .bio-copy a {
   color: green;
 }
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #fff;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer h3 {
+  color: #000;
+  padding-top: 1.5em;
+  text-transform: uppercase;
+}
+.footer h3 span {
+  color: #aaa;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
+.footer-nav a {
+  color: #ccc;
+}
+
